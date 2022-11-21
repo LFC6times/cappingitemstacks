@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "capitemstacks",
+  "version": "${version}",
+  "name": "Capitemstacks",
+  "description": "why does fabric be like this ive had to remake projects twice today",
+  "authors": [
+    "6Times"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/capitemstacks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ml.ikwid.capitemstacks.Capitemstacks"
+    ]
+  },
+  "mixins": [
+    "capitemstacks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
